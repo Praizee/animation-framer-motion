@@ -70,10 +70,10 @@ export default function CustomCarousel() {
               <Image
                 src={image}
                 alt=""
-                className="w-full h-full rounded-3xl pointer-events-none"
+                className="w-full h-full rounded-xl pointer-events-none"
               />
-              <div className="absolute bottom-0 left-0 w-full bg-transparent backdrop-blur-[5px] mx-2 px-4 py-8">
-                <p className="text-white text-lg mb-6">
+              <div className="absolute bottom-0 left-0 w-full h-max bg-transparent backdrop-blur-[5px] mx-2 px-4 py-6">
+                <p className="text-white text-lg mb-6 text-center">
                   {destination[index].title}
                 </p>
                 <button className="bg-blue-500 text-sm text-center text-white rounded-md py-3 px-6">
