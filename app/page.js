@@ -2,13 +2,15 @@
 
 import CustomCarousel from "@/components/CustomCarousel";
 import Login from "@/components/Login";
+import RLayout from "@/components/RLayout";
 import Signup from "@/components/Signup";
 import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <section className="">
-      <Signup />
+      <RLayout />
+      {/* <Signup /> */}
 
       {/* <Login /> */}
 
