@@ -7,8 +7,8 @@ import Image6 from "./../assets/pexels-philipp-aleev-9323386.jpg";
 import Image7 from "./../assets/pexels-sultan-raimosan-6307029.jpg";
 import Image8 from "./../assets/pexels-vadimsadovski-7049988.jpg";
 
-// export default [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8];
 export default [Image1, Image2, Image3, Image4, Image5, Image7];
+// export default [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8];
 
 export const destination = [
   { title: "Lagos to Ibadan" },
